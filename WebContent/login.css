@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("https://source.unsplash.com/2560x1440/?flowers");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Muli';
+}
+.loginbox{
+	width: 320px;
+	height: 360px;
+	background: #98bed1;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+h1{
+	margin: 8;
+	text-align: center;
+	font-size: 25px;
+}
+.loginbox p{
+	margin: 7;
+	padding: 5;
+	font-weight: bold;
+}
+.loginbox input{
+	
+	width:80%;
+	margin-bottom: 20px;
+	
+	
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	padding: 8;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff; 
+	font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #004080;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.sumbit {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 2px 0;
+    outline: 0 none;
+    border: 2px solid #00ffff;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
+    background-color: #000;
+    color: #00ffff;
+    font-family: 'dosis';
+    font-weight: 500;
+}
+.sumbit:hover {
+    background-color: #00ffff;
+    color: #000;
+    font-weight: 700;
+}
